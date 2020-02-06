@@ -13,7 +13,11 @@ The other required modules are in `requirements.txt` and can be installed with:
 pip install -r requirements.txt
 ```
 
-# Generating
+# Generations
+
+All conditional and unconditional generations are available [here](https://drive.google.com/file/d/1add49ypQLPC8ddGAbLcQVVfXnwAXkkMz/view?usp=sharing). 
+
+# Generating Your Own
 
 Use `gen.py` to generate:
 ```
@@ -52,7 +56,7 @@ python gen.py --model_name gpt2-large --batch_size 10 -n 50 --context_path sorte
 
 Next, we'll reprocess the cache file for Beam Search:
 ```
-python rebatch_inits_for_beamsearch.py data/first.cache --batch_size 4 --out bs_4.cache
+python rebatch_inits_for_beamsearch.py first.cache --batch_size 4 --out bs_4.cache
 ```
 
 Now we can decode with Beam Search:
