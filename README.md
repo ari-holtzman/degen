@@ -3,6 +3,10 @@ The Official Repository for "The Curious Case of Neural Text Degeneration"
 
 If you want to use Nucleus Sampling, you can use the implementation in [Hugging Face Transformers](https://github.com/huggingface/transformers/blob/master/examples/run_generation.py) with many pretrained models, including GPT-2!
 
+# Generations
+
+All conditional and unconditional generations are available [here](https://drive.google.com/file/d/1add49ypQLPC8ddGAbLcQVVfXnwAXkkMz/view?usp=sharing). 
+
 # Requirements
 
 `pytorch` must be installed.
@@ -12,10 +16,6 @@ The other required modules are in `requirements.txt` and can be installed with:
 ```
 pip install -r requirements.txt
 ```
-
-# Generations
-
-All conditional and unconditional generations are available [here](https://drive.google.com/file/d/1add49ypQLPC8ddGAbLcQVVfXnwAXkkMz/view?usp=sharing). 
 
 # Generating Your Own
 
