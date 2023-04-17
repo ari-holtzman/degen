@@ -7,7 +7,7 @@ import os
 import json
 import random
 
-from transformers import GPT2Tokenizer, cached_path
+from transformers import GPT2Tokenizer
 
 def main():
     parser = argparse.ArgumentParser()
