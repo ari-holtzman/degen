@@ -37,7 +37,7 @@ def bleu_i(weights, all_sentences, smoothing_function, i):
 def main():
     args = parse_args()
     random.seed(0)
-    nlp = spacy.load('en', disable=['parser', 'tagger', 'ner'])
+    nlp = spacy.load('en_core_web_sm', disable=['parser', 'tagger', 'ner'])
     nlp.add_pipe(nlp.create_pipe('sentencizer'))
 
     all_sentences = []
